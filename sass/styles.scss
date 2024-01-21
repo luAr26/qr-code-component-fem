@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #d5e1ef;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+// Variables
+$grey: #7d889e;
+$dark-navy: #1f314f;
+
+.qr-code-component {
+  width: 32rem;
+  margin: 15.2rem auto 0;
+  background-color: #fff;
+  color: $grey;
+  padding: 1.6rem;
+  border-radius: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  h1 {
+    color: $dark-navy;
+  }
+}
